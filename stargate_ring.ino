@@ -45,7 +45,7 @@ void loop() {
   //colorWipeChase(strip.Color(255, 100, 10), 400); // Yellow
   if(firstRun){
     firstRun = false;
-    fireSequence(strip.Color(255, 100, 10), 1000);
+    fireSequence(strip.Color(255, 100, 10), 300);
     delay(1000);
     colorWipeBlue(0);
     delay(100);
@@ -62,7 +62,7 @@ void lightSequence(){
   theaterChase(strip.Color(127, 127, 127), 20);
   theaterChase(strip.Color(127, 127, 127), 20);
   theaterChase(strip.Color(127, 127, 127), 20);
-  fireSequence(strip.Color(255, 100, 10), 500);
+  fireSequence(strip.Color(255, 100, 10), 300);
   delay(1000);
   colorWipeBlue(0);
   delay(100);
